@@ -19,7 +19,6 @@ i. Bot.py which contains the movement control of the bot from the server
 ii.camera.py which Takes a photo when the range of the ultrasoic sensor is less than 20cm i.e when motion is detected and then the photo is uploaded to AWS S3 for face recognition. 
 iii. livestream.py which sends the live feed to the server. 
 
-
-3. The server folder has entire backend integration of the framework where it uses flask and Amazon dynamoDB (which is a is a fully managed proprietary NoSQL database service that supports key-value and document data structures and is offered by Amazon.com as part of the Amazon Web Services portfolio) to carry out the tasks. 
+3.The server folder has entire backend integration of the framework where it uses flask and Amazon dynamoDB (which is a is a fully managed proprietary NoSQL database service that supports key-value and document data structures and is offered by Amazon.com as part of the Amazon Web Services portfolio) to carry out the tasks. 
 
 Have fun coding and developing your own robot. 
